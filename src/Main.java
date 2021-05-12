@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        working obj = new working();
+        working Bank = new working();
 
         new Thread(()->{
-            obj.printpoint();
+            Bank.minus();
         }).start();
 
         new Thread(()->{
-            obj.printpoint();
+            Bank.add();
         }).start();
 
     }
