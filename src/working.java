@@ -17,7 +17,6 @@ public class working {
         System.out.println(Bank);
     }
 
-
     public synchronized void add(){
         for (int i = 0; i < 10; i++) {
             Bank = Bank + 10000;
